@@ -29,7 +29,6 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         viewCalender.selectDates([Date()])
         viewCalender.scrollToDate(Date(), triggerScrollToDateDelegate: true, animateScroll: false, preferredScrollPosition: .none, extraAddedOffset: .zero, completionHandler: nil)
         
-        
         //        for Range selection in mulitple selection
         let panGensture = UILongPressGestureRecognizer(target: self, action: #selector(didStartRangeSelecting(gesture:)))
         panGensture.minimumPressDuration = 0.5
@@ -246,9 +245,9 @@ extension ViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSo
     func handleCellTextColor(cell: DateCell, cellState: CellState) {
         if cellState.dateBelongsTo == .thisMonth {
             if cellState.isSelected {
-                cell.lblDate.textColor = UIColor.black
+                cell.lblDate.textColor = UIColor.brown
             } else {
-                cell.lblDate.textColor = UIColor.white
+                cell.lblDate.textColor = UIColor.black
             }
         } else {
             cell.lblDate.textColor = UIColor.lightText

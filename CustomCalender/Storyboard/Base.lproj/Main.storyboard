@@ -25,13 +25,13 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnO-Qy-reW">
                                         <rect key="frame" x="8" y="36.5" width="52" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idi-Uc-CTS">
                                         <rect key="frame" x="8" y="8" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <color key="textColor" name="todayColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-fT-N7D">
@@ -40,49 +40,49 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tK-Xc-s4o">
                                                 <rect key="frame" x="0.0" y="0.0" width="59" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evk-UA-QUk">
                                                 <rect key="frame" x="59" y="0.0" width="59.5" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emv-aB-1no">
                                                 <rect key="frame" x="118.5" y="0.0" width="59" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FG-Aw-tWx">
                                                 <rect key="frame" x="177.5" y="0.0" width="59" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvu-Uu-BJP">
                                                 <rect key="frame" x="236.5" y="0.0" width="59" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNa-qc-i2c">
                                                 <rect key="frame" x="295.5" y="0.0" width="59.5" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKQ-QO-P4X">
                                                 <rect key="frame" x="355" y="0.0" width="59" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" name="lightPurple"/>
+                                <color key="backgroundColor" name="monthHeaderBG"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="09F-IE-xMY"/>
                                     <constraint firstItem="idi-Uc-CTS" firstAttribute="top" secondItem="64h-g3-Ryw" secondAttribute="top" constant="8" id="0Yx-15-5Jv"/>
@@ -96,7 +96,7 @@
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-2O-afa" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
                                 <rect key="frame" x="0.0" y="144" width="414" height="300"/>
-                                <color key="backgroundColor" name="darkPurple"/>
+                                <color key="backgroundColor" name="calenderBG"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="sAF-ap-40e"/>
                                 </constraints>
@@ -115,23 +115,23 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yb1-MY-hxe">
-                                                    <rect key="frame" x="23.5" y="24.5" width="50" height="50"/>
-                                                    <color key="backgroundColor" name="selectedColor"/>
+                                                    <rect key="frame" x="25.5" y="26.5" width="46" height="46"/>
+                                                    <color key="backgroundColor" name="todayColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="RSe-nF-cWk"/>
-                                                        <constraint firstAttribute="width" constant="50" id="s2B-hh-WWG"/>
+                                                        <constraint firstAttribute="height" constant="46" id="RSe-nF-cWk"/>
+                                                        <constraint firstAttribute="width" constant="46" id="s2B-hh-WWG"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCA-4B-uTt">
                                                     <rect key="frame" x="0.0" y="29.5" width="29.5" height="40"/>
-                                                    <color key="backgroundColor" name="appYellow"/>
+                                                    <color key="backgroundColor" name="selectedColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="csE-bg-Rbi"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="InM-zT-bQf">
                                                     <rect key="frame" x="28.5" y="29.5" width="40" height="40"/>
-                                                    <color key="backgroundColor" name="appYellow"/>
+                                                    <color key="backgroundColor" name="selectedColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="XrN-mL-aIQ"/>
                                                         <constraint firstAttribute="height" constant="40" id="gDU-jl-Zen"/>
@@ -139,7 +139,7 @@
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJX-hs-xJd">
                                                     <rect key="frame" x="67.5" y="29.5" width="29.5" height="40"/>
-                                                    <color key="backgroundColor" name="appYellow"/>
+                                                    <color key="backgroundColor" name="selectedColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="51m-4S-VNO"/>
                                                     </constraints>
@@ -194,12 +194,6 @@
                                     <outlet property="ibCalendarDelegate" destination="BYZ-38-t0r" id="gVy-ap-pUC"/>
                                 </connections>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Bottom of Calender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-fP-pfx">
-                                <rect key="frame" x="105.5" y="452" width="203" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WY7-gs-Ryk">
                                 <rect key="frame" x="347" y="452" width="47" height="30"/>
                                 <constraints>
@@ -224,10 +218,8 @@
                             <constraint firstItem="QoP-ZF-E0m" firstAttribute="trailing" secondItem="WY7-gs-Ryk" secondAttribute="trailing" id="27K-TB-F8Y"/>
                             <constraint firstItem="QxI-2O-afa" firstAttribute="top" secondItem="64h-g3-Ryw" secondAttribute="bottom" id="3Uy-oz-FPQ"/>
                             <constraint firstItem="64h-g3-Ryw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5o2-kf-8Ng"/>
-                            <constraint firstItem="YcO-fP-pfx" firstAttribute="top" secondItem="QxI-2O-afa" secondAttribute="bottom" constant="8" id="8tq-s2-8F4"/>
                             <constraint firstItem="WY7-gs-Ryk" firstAttribute="top" secondItem="QxI-2O-afa" secondAttribute="bottom" constant="8" id="KtM-6O-CC3"/>
                             <constraint firstItem="QoP-ZF-E0m" firstAttribute="top" secondItem="WY7-gs-Ryk" secondAttribute="bottom" constant="30" id="h51-RH-GSm"/>
-                            <constraint firstItem="YcO-fP-pfx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kyD-E8-5QO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WY7-gs-Ryk" secondAttribute="trailing" constant="20" id="m7N-sd-Bfe"/>
                             <constraint firstItem="QxI-2O-afa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m7g-kx-LQe"/>
                             <constraint firstItem="64h-g3-Ryw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rJK-CE-YiY"/>
@@ -534,14 +526,23 @@
         <namedColor name="appYellow">
             <color red="1" green="0.80392156862745101" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="calenderBG">
+            <color red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="darkPurple">
             <color red="0.24705882352941178" green="0.12941176470588237" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="lightPurple">
             <color red="0.29019607843137257" green="0.1803921568627451" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="monthHeaderBG">
+            <color red="0.68627450980392157" green="0.68627450980392157" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="selectedColor">
-            <color red="0.32549019607843138" green="0.22352941176470589" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="todayColor">
+            <color red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
